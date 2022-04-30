@@ -1,7 +1,6 @@
-# vv3-template-router-CB
+# vv3-templ-r-CB
 
-This template should help get you started developing with Vue 3 in Vite.
-
+This template uses Vue 3 with Vite, Composition APi, Vue Router, FontAwesome, and Bootstrap 5
 Usage:
 ```
 npx degit robert-baumgartner/vv3-template-router-CB your-project
