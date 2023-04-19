@@ -4,23 +4,14 @@ import { RouterLink, RouterView } from 'vue-router';
 
 <template>
   <div class="container text-center">
-    <nav class="my-4">
-      <RouterLink to="/" class="nav-link" >Home </RouterLink>
-      <RouterLink to="/about" class="nav-link"> About </RouterLink>
-    </nav>
+    <div class="my-4 d-flex justify-content-center">
+      <RouterLink to="/" class="nav-link me-3" active-class="border-bottom border-3 border-primary"
+        >Home</RouterLink>
+      <RouterLink to="/about" class="nav-link" active-class="border-bottom border-3 border-primary">
+        About
+      </RouterLink>
+    </div>
 
-   <div class="d-flex justify-content-center"> <RouterView /></div>
+    <div class="d-flex justify-content-center"><RouterView /></div>
   </div>
 </template>
-
-<style scoped>
-a.nav-link {
-  display: inline;
-  color: black;
-  border: white;
-}
-a.router-link-active {
-  border: #3FB984 3px solid;
-  color: black;
-}
-</style>
