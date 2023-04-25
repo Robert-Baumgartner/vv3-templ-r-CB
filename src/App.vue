@@ -13,5 +13,6 @@ import { RouterLink, RouterView } from 'vue-router';
     </div>
 
     <div class="d-flex justify-content-center"><RouterView /></div>
+    <BreakPoints></BreakPoints>
   </div>
 </template>
